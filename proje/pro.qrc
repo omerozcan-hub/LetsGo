@@ -1,0 +1,36 @@
+<RCC>
+  <qresource prefix="anasayfa">
+    <file>pic/buyutec.webp</file>
+    <file>pic/cam.jpg</file>
+    <file>pic/gorsel1.jpg</file>
+    <file>pic/LOGO.PNG</file>
+  </qresource>
+  <qresource prefix="back">
+    <file>pic/wallpapers/w1.jpg</file>
+    <file>pic/wallpapers/w2.jpg</file>
+    <file>pic/wallpapers/w3.jpg</file>
+    <file>pic/wallpapers/w4.jpg</file>
+    <file>pic/wallpapers/w5.jpg</file>
+  </qresource>
+  <qresource prefix="girisyap">
+    <file>pic/girisyap/avatar.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>urunler/image1.webp</file>
+    <file>urunler/image2.webp</file>
+    <file>urunler/image3.webp</file>
+    <file>urunler/image4.webp</file>
+    <file>urunler/image5.webp</file>
+    <file>urunler/image6.webp</file>
+    <file>urunler/image7.webp</file>
+    <file>urunler/image8.webp</file>
+    <file>urunler/image9.webp</file>
+    <file>urunler/image10.webp</file>
+    <file>urunler/image11.webp</file>
+    <file>urunler/image12.webp</file>
+    <file>urunler/image13.webp</file>
+    <file>urunler/image14.webp</file>
+    <file>urunler/image15.webp</file>
+    <file>urunler/image16.webp</file>
+  </qresource>
+</RCC>

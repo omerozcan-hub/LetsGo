@@ -1,0 +1,3070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>912</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1310</width>
+     <height>911</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(233, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:15px;
+font-style:italic;
+font:bold;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>10</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="pro.qrc">
+     <normaloff>:/anasayfa/pic/buyutec.webp</normaloff>:/anasayfa/pic/buyutec.webp</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>39</height>
+    </size>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="pro.qrc">
+     <normaloff>:/anasayfa/pic/LOGO.PNG</normaloff>:/anasayfa/pic/LOGO.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>170</width>
+     <height>170</height>
+    </size>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>10</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>Araba, Telefon, Bisisklet ve daha fazlası</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>1311</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="usesScrollButtons">
+    <bool>true</bool>
+   </property>
+   <property name="documentMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QTabWidget" name="tabWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-30</y>
+       <width>1311</width>
+       <height>881</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>anasayfa</string>
+      </attribute>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>1311</width>
+         <height>841</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w1.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>920</x>
+         <y>10</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+border-radius:20px;
+background-color:rgb(198, 243, 255);</string>
+       </property>
+       <property name="text">
+        <string>Ev Eşyaları</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>10</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+border-radius:20px;
+background-color:rgb(198, 243, 255);</string>
+       </property>
+       <property name="text">
+        <string>Motosiklet</string>
+       </property>
+      </widget>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>330</y>
+         <width>1281</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(241, 239, 255);</string>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1279</width>
+          <height>489</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="1" column="0">
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="6" column="3">
+            <widget class="QPushButton" name="B12">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="3">
+            <widget class="QLabel" name="lb12">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="B5">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLabel" name="lb10">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLabel" name="lb11">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QPushButton" name="B4">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="lb9">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLabel" name="lb14">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="lb6">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="lb7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="lb5">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLabel" name="lb8">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QPushButton" name="B9">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QPushButton" name="B11">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QPushButton" name="B7">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QPushButton" name="B8">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="B2">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QPushButton" name="B3">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QPushButton" name="B10">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="B6">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="lb1">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="lb13">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="lb2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLabel" name="lb4">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="lb3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="B1">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2">
+            <widget class="QLabel" name="lb15">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="3">
+            <widget class="QLabel" name="lb16">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QPushButton" name="B13">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QPushButton" name="B14">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2">
+            <widget class="QPushButton" name="B15">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="3">
+            <widget class="QPushButton" name="B16">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>10</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+border-radius:20px;
+background-color:rgb(198, 243, 255);</string>
+       </property>
+       <property name="text">
+        <string>Araba</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>10</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>true</underline>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+border-radius:20px;
+background-color:rgb(198, 243, 255);</string>
+       </property>
+       <property name="text">
+        <string>Tüm Kategoriler</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>10</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+border-radius:20px;
+background-color:rgb(198, 243, 255);</string>
+       </property>
+       <property name="text">
+        <string>Elektronik</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>10</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+border-radius:20px;
+background-color:rgb(198, 243, 255);</string>
+       </property>
+       <property name="text">
+        <string>Telefon</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>60</y>
+         <width>741</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/anasayfa/pic/gorsel1.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="pro.qrc">:/anasayfa/pic/gorsel1.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>40</y>
+         <width>1251</width>
+         <height>761</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 220, 220);</string>
+       </property>
+       <property name="title">
+        <string>Tüm</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>/\</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>241</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Araba</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>300</y>
+          <width>241</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Telefon</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>510</y>
+          <width>241</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Ev Eşyaları</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>50</y>
+          <width>241</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Elektronik</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>410</y>
+          <width>241</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Motosiklet</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>40</y>
+          <width>241</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Diğer Araçlar</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_7">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>280</y>
+          <width>241</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Bebek ve Çocuk</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>540</y>
+          <width>241</width>
+          <height>211</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Spor ve Outdoor</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>40</y>
+          <width>241</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Hobi ve Eğlence</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>380</y>
+          <width>241</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Giyim ve Aksesuar</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="pushButton_24">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>0</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(206, 217, 255);</string>
+        </property>
+        <property name="text">
+         <string>Git</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>1080</x>
+         <y>10</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:brown;
+border-radius:15;
+background-color:rgb(248, 255, 180);
+font-size:20px;
+font:bold;</string>
+       </property>
+       <property name="text">
+        <string>Giriş Yap</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>1190</x>
+         <y>10</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:brown;
+border-radius:15;
+background-color:rgb(248, 255, 180);
+font-size:20px;
+font:bold;</string>
+       </property>
+       <property name="text">
+        <string>Kayıt Ol</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_43">
+       <property name="geometry">
+        <rect>
+         <x>1140</x>
+         <y>20</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:brown;
+background-color:rgb(248, 255, 180);
+font-size:20px;
+font:bold;</string>
+       </property>
+       <property name="text">
+        <string>Hesap</string>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>1140</x>
+         <y>50</y>
+         <width>151</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:brown;
+background-color:rgb(248, 255, 180);
+font-size:20px;
+font:bold;</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>157</width>
+          <height>134</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_40">
+           <property name="styleSheet">
+            <string notr="true">color:brown;
+background-color:rgb(207, 215, 255);
+font-size:20px;
+font:bold;</string>
+           </property>
+           <property name="text">
+            <string>Hesap Bilgileri</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_41">
+           <property name="styleSheet">
+            <string notr="true">color:brown;
+background-color:rgb(207, 215, 255);
+font-size:20px;
+font:bold;</string>
+           </property>
+           <property name="text">
+            <string>Favoriler</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_42">
+           <property name="styleSheet">
+            <string notr="true">color:brown;
+background-color:rgb(207, 215, 255);
+font-size:20px;
+font:bold;</string>
+           </property>
+           <property name="text">
+            <string>İlanlarım</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_39">
+           <property name="styleSheet">
+            <string notr="true">color:brown;
+background-color:rgb(207, 215, 255);
+font-size:20px;
+font:bold;</string>
+           </property>
+           <property name="text">
+            <string>Çıkış Yap</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="pushButton_44">
+       <property name="geometry">
+        <rect>
+         <x>1140</x>
+         <y>60</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:brown;
+border-radius:15;
+background-color:rgb(248, 255, 180);
+font-size:20px;
+font:bold;</string>
+       </property>
+       <property name="text">
+        <string>Sat</string>
+       </property>
+       <property name="icon">
+        <iconset resource="pro.qrc">
+         <normaloff>:/anasayfa/pic/cam.jpg</normaloff>:/anasayfa/pic/cam.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <zorder>label_2</zorder>
+      <zorder>pushButton_9</zorder>
+      <zorder>pushButton_7</zorder>
+      <zorder>scrollArea</zorder>
+      <zorder>pushButton_4</zorder>
+      <zorder>pushButton_5</zorder>
+      <zorder>pushButton_6</zorder>
+      <zorder>pushButton_8</zorder>
+      <zorder>label_5</zorder>
+      <zorder>pushButton_3</zorder>
+      <zorder>pushButton_11</zorder>
+      <zorder>pushButton_43</zorder>
+      <zorder>pushButton_44</zorder>
+      <zorder>groupBox</zorder>
+      <zorder>groupBox_2</zorder>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <property name="styleSheet">
+       <string notr="true">font: 63 14pt &quot;Yu Gothic UI Semibold&quot;;</string>
+      </property>
+      <attribute name="title">
+       <string>incele</string>
+      </attribute>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1301</width>
+         <height>851</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w1.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_72">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>150</y>
+         <width>541</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>160</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI Semibold</family>
+         <pointsize>14</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>İlan Başlığı     :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>260</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI Semibold</family>
+         <pointsize>14</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Fiyat        :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>340</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI Semibold</family>
+         <pointsize>14</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Durumu        :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>420</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI Semibold</family>
+         <pointsize>14</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Açıklama :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_42">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>160</y>
+         <width>411</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>260</y>
+         <width>241</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_44">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>340</y>
+         <width>311</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>420</y>
+         <width>481</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_46">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>60</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI Semibold</family>
+         <pointsize>-1</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size:26px;</string>
+       </property>
+       <property name="text">
+        <string>Ürün Detayları</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>510</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI Semibold</family>
+         <pointsize>14</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Favorilere Ekle</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>giris</string>
+      </attribute>
+      <widget class="QLabel" name="label_70">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1301</width>
+         <height>851</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w2.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le5">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>510</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Parola</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le4">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>460</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+place-holder:username;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>140</y>
+         <width>221</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/girisyap/pic/girisyap/avatar.png);
+border-radius:25%;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>:/girisyap/pic/avatar.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le3">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>420</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+place-holder:username;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Telefon Numarası</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_47">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>550</y>
+         <width>251</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:red;
+font:italic;
+</string>
+       </property>
+       <property name="text">
+        <string>Kullanıcı Bilgileri Bulunamadı !!!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>370</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; font-style:italic;&quot;&gt;GİRİŞ YAP  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>580</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+background-color:white;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>Giriş Yap</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>kayıt</string>
+      </attribute>
+      <widget class="QLabel" name="label_71">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1301</width>
+         <height>851</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w2.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le3_2">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>480</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+place-holder:username;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Telefon Numarası</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le1">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>380</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+place-holder:username;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Ad Soyad</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le4_2">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>530</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+place-holder:username;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le2">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>430</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+place-holder:username;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Kullanıcı Adı</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le5_2">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>580</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Parola</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_50">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>330</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; font-style:italic;&quot;&gt;KAYIT OL  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>660</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15;
+background-color:white;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>Kayıt Ol</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_51">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>110</y>
+         <width>221</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/girisyap/pic/girisyap/avatar.png);
+border-radius:25%;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>:/girisyap/pic/avatar.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_75">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>620</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>true</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:green;
+font:italic;
+</string>
+       </property>
+       <property name="text">
+        <string>Kayıt İşleminiz Başarılı</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QTabWidget" name="tabWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-30</y>
+       <width>1311</width>
+       <height>871</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="title">
+       <string>ekle</string>
+      </attribute>
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1311</width>
+         <height>861</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w4.jpg);
+background-size: cover;
+background-position: center;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_56">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>370</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:gray;</string>
+       </property>
+       <property name="text">
+        <string>Ürün Durumu  :</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>370</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>2.El</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>140</y>
+         <width>391</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>  İlan Başlığı</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>740</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:gray;
+font:bold;
+font-size:20;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>İlan Ver</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_57">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>50</y>
+         <width>561</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+font: 18pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Kullanmadığın  Eşyalarını Değerlendirebilirsin</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>470</y>
+         <width>551</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font-size:20px;</string>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:7.8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="placeholderText">
+        <string>İlan Açıklama</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>420</y>
+         <width>351</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:rgb(252, 247, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Görsel Yükle</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="geometry">
+        <rect>
+         <x>660</x>
+         <y>370</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>Yeni</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>260</y>
+         <width>391</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>  Fiyat</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>190</y>
+         <width>391</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:white;</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>310</y>
+         <width>391</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:white;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_8">
+      <attribute name="title">
+       <string>sil</string>
+      </attribute>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>-10</y>
+         <width>1311</width>
+         <height>861</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w4.jpg);
+background-size: cover;
+background-position: center;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>290</y>
+         <width>391</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>  Fiyat</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>700</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:gray;
+font:bold;
+font-size:20;</string>
+       </property>
+       <property name="text">
+        <string>Güncelle</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="textEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>490</y>
+         <width>551</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font-size:20px;</string>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:7.8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="placeholderText">
+        <string>İlan Açıklama</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="geometry">
+        <rect>
+         <x>1050</x>
+         <y>400</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>2.El</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>180</y>
+         <width>391</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>  İlan Başlığı</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_58">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>400</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:gray;</string>
+       </property>
+       <property name="text">
+        <string>Ürün Durumu  :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>440</y>
+         <width>391</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:gray;
+font:bold;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Görsel Yükle</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="geometry">
+        <rect>
+         <x>960</x>
+         <y>400</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>Yeni</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_59">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>60</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+font: 18pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Aktif İlanlarınız</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_11">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>631</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Başlık</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Fiyat</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>690</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:gray;
+font:bold;
+font-size:20;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Sil</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>700</y>
+         <width>161</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:gray;
+font:bold;
+font-size:20;</string>
+       </property>
+       <property name="text">
+        <string>Güncelle</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_14">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>631</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Başlık</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Fiyat</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QPushButton" name="pushButton_25">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>360</y>
+         <width>51</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:rgb(240, 219, 255);
+font:bold;
+font-size:20;
+color:rgb(140, 8, 255);</string>
+       </property>
+       <property name="text">
+        <string>-&gt;</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>230</y>
+         <width>391</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:white;</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_5">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>340</y>
+         <width>391</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:white;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_10">
+      <attribute name="title">
+       <string>hesap</string>
+      </attribute>
+      <widget class="QLabel" name="label_60">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>1311</width>
+         <height>861</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w5.jpg);
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_61">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>90</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 22pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Hesap Bilgileri</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_62">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>250</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Kullanıcı Adı         :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_63">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>180</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Ad Soyad              :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_64">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>320</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Telefon Numarası  :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_65">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>390</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>E-Mail                   :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_66">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>470</y>
+         <width>231</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>Parola                   :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_67">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>180</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_68">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>250</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_69">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>320</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_73">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>390</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_74">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>470</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 16pt &quot;Times New Roman&quot;;
+color:white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_11">
+      <attribute name="title">
+       <string>favoriler</string>
+      </attribute>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1311</width>
+         <height>861</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/back/pic/wallpapers/w5.jpg);
+
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_13">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>110</y>
+         <width>921</width>
+         <height>661</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;</string>
+       </property>
+       <column>
+        <property name="text">
+         <string>Başlık</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Fiyat</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Açıklama</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>30</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>17</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(235, 255, 254);
+</string>
+       </property>
+       <property name="text">
+        <string>Favoriler</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>1030</x>
+         <y>310</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:rgb(255, 243, 254);</string>
+       </property>
+       <property name="text">
+        <string>Ürünü İncele</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="geometry">
+        <rect>
+         <x>1030</x>
+         <y>410</y>
+         <width>221</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:15px;
+background-color:rgb(255, 243, 254);</string>
+       </property>
+       <property name="text">
+        <string>Ürünü Favorilerden Kaldır</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>1061</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(218, 216, 255);</string>
+   </property>
+   <property name="title">
+    <string>Arama</string>
+   </property>
+   <widget class="QTableWidget" name="tableWidget_12">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>751</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="dragDropOverwriteMode">
+     <bool>true</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <column>
+     <property name="text">
+      <string>İlandaki Ürünler</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Açıklama</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fiyat</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>280</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15;
+background-color:rgb(253, 242, 255);</string>
+    </property>
+    <property name="text">
+     <string>Ürünü İncele</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>370</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15;
+background-color:rgb(253, 242, 255);</string>
+    </property>
+    <property name="text">
+     <string>Geri</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="pro.qrc"/>
+  <include location="../../PycharmProjects/DersProje/letsGo/source.qrc"/>
+  <include location="source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
